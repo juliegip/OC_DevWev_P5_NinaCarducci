@@ -6,10 +6,12 @@ body {
   font-family: "Inter";
   font-style: normal;
 }
+
 .top-header {
   background-color: white;
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
@@ -264,7 +266,7 @@ input[type="submit"] {
     margin-top: 0;
     margin-bottom: 1em;
   }
-  #about-me h6,
+  #about-me h1,
   #about-me p {
     width: 100%;
   }
