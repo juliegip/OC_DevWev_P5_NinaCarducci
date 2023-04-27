@@ -46,7 +46,7 @@ body {
 
 /* Ma modif */
 .cover {
-  aspect-ratio: 16/9;
+  aspect-ratio: 897/417;
   object-fit: cover;
   width: 100%;
 }
@@ -79,7 +79,8 @@ body {
 
 .picture img {
   width: 100%;
-  max-width: 560px;
+  max-width: 500px;
+  height: auto;
 }
 #about-me {
   flex: 2;
@@ -275,9 +276,6 @@ input[type="submit"] {
   #about {
     flex-direction: column;
   }
-  .picture {
-    width: 50%;
-  }
 
   .picture.left::before {
     width: 100%;
@@ -287,10 +285,6 @@ input[type="submit"] {
     top: 0;
     left: 0;
     z-index: -1;
-  }
-  /*Mon ajout :*/
-  .picture.left img {
-    max-width: 400px;
   }
 
   .about-me__title {
@@ -367,12 +361,5 @@ input[type="submit"] {
   }
   form {
     width: 100%;
-  }
-  .picture {
-    width: 80%;
-  }
-  /* mon ajout: */
-  .picture.left img {
-    max-width: 400px;
   }
 }
