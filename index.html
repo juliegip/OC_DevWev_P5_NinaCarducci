@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Photographe à Bordeaux, professionnelle à votre écoute pour vos projets studio, mariage, d'objet, ... pour répondre exactement à vos attentes" />
     <title>Photographe évènementiel à Bordeaux - Nina Carducci</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="./assets/style.min.css" />
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" defer></script>
-    <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
     <script src="./assets/scripts.min.js" defer></script>
     <script src="./assets/maugallery.min.js" defer></script>
+    <link rel="stylesheet" href="./assets/style.min.css" />
 
     <!-- Réseaux sociaux -->
     <meta property="og:title" content="Photographe évènementiel à Bordeaux - Nina Carducci" />
@@ -28,7 +30,6 @@
     <meta name="twitter:image" content="./assets/images/nina-335.webp" />
 
     <!-- SEO référencement local -->
-
     <link rel="canonical" href="https://juliegip.github.io/OC_DevWev_P5_NinaCarducci/" />
     <script type="application/ld+json">
       {
@@ -73,6 +74,7 @@
           </ul>
         </nav>
       </div>
+    </header>
       <div id="header">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
@@ -82,22 +84,20 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <picture>
-                <source srcset="./assets/images/s_ryoji-iwata-425.webp 425w, ./assets/images/s_ryoji-iwata-768.webp 768w, ./assets/images/s_ryoji-iwata-1440.webp 1440w, ./assets/images/s_ryoji-iwata-1920.webp 1920w" sizes="100vw" />
-                <img class="d-block cover" src="./assets/images/s_ryoji-iwata-1920.webp" alt="piéton qui traverse au passage clouté" />
-              </picture>
+              <img srcset="./assets/images/s_ryoji-iwata-425.webp 425w, ./assets/images/s_ryoji-iwata-768.webp 768w, ./assets/images/s_ryoji-iwata-1440.webp 1440w, ./assets/images/s_ryoji-iwata-1920.webp 1920w" sizes="100vw"
+                 src="./assets/images/s_ryoji-iwata-1920.webp"  class="d-block w-100 cover" alt="piéton qui traverse au passage clouté" width="1921" height="888"/>
+              </img>
             </div>
             <div class="carousel-item">
-              <picture>
-                <source srcset="./assets/images/s_nicholas-green-425.webp 425w, ./assets/images/s_nicholas-green-768.webp 768w, ./assets/images/s_nicholas-green-1440.webp 1440w, ./assets/images/s_nicholas-green-1920.webp 1920w" sizes="100vw" />
-                <img class="d-block cover" src="./assets/images/s_nicholas-green-1920.webp" alt="concert public" />
-              </picture>
+              <img srcset="./assets/images/s_nicholas-green-425.webp 425w, ./assets/images/s_nicholas-green-768.webp 768w, ./assets/images/s_nicholas-green-1440.webp 1440w, ./assets/images/s_nicholas-green-1920.webp 1920w" sizes="100vw" 
+               src="./assets/images/s_nicholas-green-1920.webp" class="d-block w-100 cover"  alt="concert public" width="1921" height="888"/>
+            </img>
             </div>
             <div class="carousel-item">
-              <picture>
-                <source srcset="./assets/images/s_edward-cisneros-425.webp 425w, ./assets/images/s_edward-cisneros-768.webp 768w, ./assets/images/s_edward-cisneros-1440.webp 1440w, ./assets/images/s_edward-cisneros-1920.webp 1920w" sizes="100vw" />
-                <img src="./assets/images/s_edward-cisneros-1920.webp" class="d-block cover" alt="couple dansant qui s'embrasse" />
-              </picture>
+              <img  
+               srcset="./assets/images/s_edward-cisneros-425.webp 425w, ./assets/images/s_edward-cisneros-768.webp 768w, ./assets/images/s_edward-cisneros-1440.webp 1440w, ./assets/images/s_edward-cisneros-1920.webp 1920w" sizes="100vw"
+                 src="./assets/images/s_edward-cisneros-1920.webp" class="d-block w-100 cover" alt="couple dansant qui s'embrasse" width="1921" height="888"/>
+              </img>
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -110,11 +110,11 @@
           </button>
         </div>
       </div>
-    </header>
+    
     <main>
       <article id="about">
         <picture class="picture left">
-          <img src="./assets/images/nina-335.webp" alt="Nina Carducci" />
+          <img src="./assets/images/nina-500.webp" alt="Nina Carducci" />
         </picture>
 
         <div id="about-me">

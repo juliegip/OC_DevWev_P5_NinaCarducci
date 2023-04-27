@@ -9,7 +9,7 @@ body {
 
 .top-header {
   background-color: white;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 1000;
@@ -46,14 +46,12 @@ body {
 
 /* Ma modif */
 .cover {
-  aspect-ratio: 897/417;
-  object-fit: cover;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 #about {
   display: flex;
-
   background-color: #f6d2b8;
   padding-inline: 100px;
   padding-block: 100px;
@@ -95,6 +93,7 @@ body {
   font-weight: 800;
   font-style: italic;
   width: 60%;
+  font-size: 1rem;
 }
 #about-me p {
   width: 80%;
